@@ -18,9 +18,11 @@
   <link href="/css/common.css" rel="stylesheet" />
   <link href="/css/main.css" rel="stylesheet" />
   <link href="/css/font.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/jquery.bxslider.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/js/jquery.bxslider.min.js"></script>
   <script defer src="/js/main.js"></script>
 </head>
 <div>
@@ -316,6 +318,22 @@
             </ul>
           </div>
         </div>
+        <div class="vis_ban_area">
+          <a href="javascript:void(0);">
+            <dl class="ban_info">
+              <dt>키높이 데님 샌들힐</dt>
+              <dd class="price_info">
+                <span class="price_cus">45,000</span>
+                <span class="price_sale">33,000</span>
+                <span class="salep">27<em>%</em></span>
+                <span class="point"><b>적립</b>165</span>
+              </dd>
+            </dl>
+            <div class="ban_img">
+              <img src="/images/product/1629309_a_180.jpg" alt="키높이 데님 샌들힐" title="키높이 데님 샌들힐" />
+            </div>
+          </a>
+        </div>        
       </div>
       <div class="home_gnb">
         <ul class="clearfix">
@@ -334,29 +352,56 @@
   <!-- Main Visual -->
   <div class="main_visual_wrap">
     <div class="visual_slider">
-      <ul>
-        <li>
+      <ul class="bxslider">
+        <li class="main_visual_slider1">
           <a href="javascript:void(0);">
             <img src="/images/mainvisual/mainvisual_01_211026.jpg" />
           </a>
         </li>
-      </ul>
-    </div>
-    <div class="vis_ban_area">
-      <a href="javascript:void(0);">
-        <dl class="ban_info">
-          <dt>키높이 데님 샌들힐</dt>
-          <dd class="price_info">
-            <span class="price_cus">45,000</span>
-            <span class="price_sale">33,000</span>
-            <span class="salep">27<em>%</em></span>
-            <span class="point"><b>적립</b>165</span>
-          </dd>
-        </dl>
-        <div class="ban_img">
-          <img src="/images/product/1629309_a_180.jpg" alt="키높이 데님 샌들힐" title="키높이 데님 샌들힐" />
-        </div>
-      </a>
+        <li class="main_visual_slider2">
+          <a href="javascript:void(0);">
+            <img src="/images/mainvisual/mainvisual_02_211026.jpg" />
+          </a>
+        </li>
+        <li class="main_visual_slider3">
+          <a href="javascript:void(0);">
+            <img src="/images/mainvisual/mainvisual_03_211026.jpg" />
+          </a>
+        </li>
+        <li class="main_visual_slider4">
+          <a href="javascript:void(0);">
+            <img src="/images/mainvisual/mainvisual_04_211026.jpg" />
+          </a>
+        </li>
+        <li class="main_visual_slider5">
+          <a href="javascript:void(0);">
+            <img src="/images/mainvisual/mainvisual_05_211026.jpg" />
+          </a>
+        </li>
+        <li class="main_visual_slider6">
+          <a href="javascript:void(0);">
+            <img src="/images/mainvisual/mainvisual_06_211026.jpg" />
+          </a>
+        </li>
+        <li class="main_visual_slider7">
+          <a href="javascript:void(0);">
+            <img src="/images/mainvisual/mainvisual_07_211026.jpg" />
+          </a>
+        </li>
+        <li class="main_visual_slider8">
+          <a href="javascript:void(0);">
+            <img src="/images/mainvisual/mainvisual_08_211026.jpg" />
+          </a>
+        </li>
+        <li class="main_visual_slider9">>
+          <a href="javascript:void(0);">
+            <img src="/images/mainvisual/mainvisual_09_211026.jpg" />
+          </a>
+        </li>        
+      </ul>      
+      <div id="slide-controlWrap">
+        <div id="slide-counter"></div>
+      </div>     
     </div>
   </div>
   <!-- Main Visual -->

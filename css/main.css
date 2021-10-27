@@ -2,31 +2,107 @@
   position: relative;
 }
 .main_visual_wrap .visual_slider ul li {
-  background-color: #f9e10f;
+  position: relative;
   height: 500px;
+}
+.main_visual_wrap .visual_slider ul li.main_visual_slider1 {
+  background-color: rgb(249, 225, 15);
+}
+.main_visual_wrap .visual_slider ul li.main_visual_slider2 {
+  background-color: rgb(224, 249, 255);
+}
+.main_visual_wrap .visual_slider ul li.main_visual_slider3 {
+  background-color: rgb(222, 248, 221);
+}
+.main_visual_wrap .visual_slider ul li.main_visual_slider4 {
+  background-color: rgb(224, 239, 234);
+}
+.main_visual_wrap .visual_slider ul li.main_visual_slider5 {
+  background-color: rgb(223, 34, 118);
+}
+.main_visual_wrap .visual_slider ul li.main_visual_slider6 {
+  background-color: rgb(234, 222, 210);
+}
+.main_visual_wrap .visual_slider ul li.main_visual_slider7 {
+  background-color: rgb(1, 141, 238);
+}
+.main_visual_wrap .visual_slider ul li.main_visual_slider8 {
+  background-color: rgb(255, 149, 51);
+}
+.main_visual_wrap .visual_slider ul li.main_visual_slider9 {
+  background-color: rgb(41, 139, 204);
 }
 .main_visual_wrap .visual_slider ul li a {
   display: block;
   text-align: center;
 }
-.main_visual_wrap .vis_ban_area {
+#slide-controlWrap {
+	  position: absolute;
+    bottom: 16px;
+    left: 54%;
+    z-index: 80;
+    margin: 0 0 0 255px;
+}
+#slide-controlWrap #slide-counter {
+    float: left;
+    width: 41px;
+    height: 38px;
+    line-height: 38px;
+    background: rgba(0,0,0,0.6);
+    overflow: hidden;    
+    color: #fff;
+    text-align: center;
+    letter-spacing: -0.05em;
+    font-family: 'Dotum',sans-serif;
+    font-size: 14px;
+}
+.bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  bottom:14px;
+  outline: 0;
+  margin-top: 0;
+  width: 36px;
+  height: 72px;
+  text-indent: -9999px;
+  z-index: 60;
+}
+.visual_slider .bx-wrapper .bx-controls-direction a.bx-prev {
+  left: 54%;
+  margin-left: 235px;
+  background-image: url('../images/koreanmall_icons.png');
+  background-repeat: no-repeat;
+  background-position: -144px -76px;
+  width: 20px;
+  height: 40px;
+}
+.visual_slider .bx-wrapper .bx-controls-direction a.bx-next {
+  left: 54%;
+  margin-left: 295px;
+  background-image: url('../images/koreanmall_icons.png');
+  background-repeat: no-repeat;
+  background-position: -172px -76px;
+  width: 20px;
+  height: 40px;
+}
+.global_category .vis_ban_area {
   width: 217px;
   height: 500px;
   position: absolute;
-  top: 0;
-  right: 310px;
+  top: 52px;
+  right: 0;
   background-color: #fff;
+  z-index: 100;
 }
-.main_visual_wrap .vis_ban_area a {
+.global_category .vis_ban_area a {
   display: block;
 }
-.main_visual_wrap .vis_ban_area a dl {
+.global_category .vis_ban_area a dl {
   text-align: center;
   margin-top: 50px;
   padding-bottom: 50px;
   position: relative;
 }
-.main_visual_wrap .vis_ban_area a dl::after {
+.global_category .vis_ban_area a dl::after {
   content: '';
   display: block;
   left: 0;
@@ -38,7 +114,7 @@
   margin: 0px auto;
   background-color: #ddd;
 }
-.main_visual_wrap .vis_ban_area a dl dt {
+.global_category .vis_ban_area a dl dt {
   color: #333;
   font-size: 15px;
   padding: 0 20px;
@@ -48,14 +124,14 @@
   overflow: hidden;
   word-break: keep-all;
 }
-.main_visual_wrap .vis_ban_area a dl dt:hover {
+.global_category .vis_ban_area a dl dt:hover {
   text-decoration: underline;
 }
-.main_visual_wrap .vis_ban_area a dl dd span {
+.global_category .vis_ban_area a dl dd span {
   font-family: 'roboto', sans-serif;
   display: block;
 }
-.main_visual_wrap .vis_ban_area a .ban_img {
+.global_category .vis_ban_area a .ban_img {
   position: absolute;
   bottom: 20px;
   left: 0;
@@ -64,7 +140,7 @@
   width: 180px;
   transition: opacity 0.3s;
 }
-.main_visual_wrap .vis_ban_area a .ban_img:hover {
+.global_category .vis_ban_area a .ban_img:hover {
   opacity: 0.7;
 }
 .main_container {

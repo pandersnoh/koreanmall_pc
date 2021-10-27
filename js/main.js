@@ -23,6 +23,28 @@ const mySwiper2 = new Swiper ('.swiper-container.hot_prodwrap', {
   }
 });
 
+$('#slide-counter').prepend('<strong class="current-index"></strong><span class="slash">/<span>');
+const slider = $('.bxslider').bxSlider({
+      speed: 200,
+      auto: true,
+      minSliders: 1,
+      maxSliders: 1,
+      pause: 6000,
+      pager: false,
+      autoHover: true,
+      autoControlsCombine: true,
+      autoControls: false,
+      onSliderLoad: function (currentIndex){
+        $('#slide-counter .current-index').text(currentIndex + 1);
+      },
+      onSlideBefore: function ($slideElement, oldIndex, newIndex){
+        $('#slide-counter .current-index').text(newIndex + 1);
+      }
+  });
+const slideCount = slider.getSlideCount();
+$('#slide-counter').append('<strong class="total-index"></strong>');
+$('.total-index').text(slideCount);
+
 $('.global_cat_m').on('mouseover', function() {
   const a = $(this).parent('li').data('cat');
   $('.sub_cate').hide();
