@@ -534,6 +534,20 @@ footer .copyright_area .foot_address .foot_crt span {
   font-size: 11px;
   font-family: 'Dotum', sans-serif;
   padding-right: 26px;
+  position: relative;
+}
+footer .copyright_area .foot_address .foot_crt span::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  width: 1px;
+  height: 10px;
+  background-color: #ccc;
+}
+footer .copyright_area .foot_address .foot_crt span:last-child::after {
+  display: none;
 }
 footer .copyright_area .foot_address .foot_policy {
   margin: 20px 0;

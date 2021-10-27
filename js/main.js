@@ -40,7 +40,8 @@ const slider = $('.bxslider').bxSlider({
       onSlideBefore: function ($slideElement, oldIndex, newIndex){
         $('#slide-counter .current-index').text(newIndex + 1);
       }
-  });
+});
+
 const slideCount = slider.getSlideCount();
 $('#slide-counter').append('<strong class="total-index"></strong>');
 $('.total-index').text(slideCount);
