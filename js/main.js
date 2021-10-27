@@ -2,12 +2,15 @@ const mySwiper = new Swiper ('.swiper-container.kpop_list', {
   slidesPerView: 7,
   spaceBetween: 10,
   loop: true,
+  autoplay: {
+    delay: 3000,
+  },
   initialSlide: 3,
   watchOverflow: true,
   centeredSlides: true,
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.kpop_list .swiper-button-next',
+    prevEl: '.kpop_list .swiper-button-prev',
   }
 });
 
@@ -15,11 +18,13 @@ const mySwiper2 = new Swiper ('.swiper-container.hot_prodwrap', {
   slidesPerView: 4,
   spaceBetween: 20,
   direction: 'horizontal',
-  autoplay: true,
+  autoplay: {
+    delay: 3000,
+  },
   loop: true,
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.hot_prodwrap .swiper-button-next',
+    prevEl: '.hot_prodwrap .swiper-button-prev',
   }
 });
 
