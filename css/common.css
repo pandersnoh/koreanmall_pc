@@ -277,6 +277,7 @@ nav .global_category .cat_list ul li .sub_cate {
   height: 502px;
   top: -1px;
   left: 199px;
+  z-index: 81;
   border: 2px solid #222;
   border-left: none;
   padding-bottom: 25px;
