@@ -36,7 +36,7 @@
 
 .bx-wrapper .bx-loading {
 	min-height: 50px;
-	background: url(/web/20180703220924im_/https://www.koreanmall.com/css/images/bx_loader.gif) center center no-repeat #fff;
+	background: url('bxslider/bx_loader.gif') center center no-repeat #fff;
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -105,7 +105,7 @@
 	width: 10px;
 	height: 11px;
 	outline: 0;
-	background: url(https://web.archive.org/web/20180703220924im_/https://www.koreanmall.com/images/cdn/skin/images/us/controls.png) -86px -11px no-repeat;
+	background: url('bxslider/controls.png') -86px -11px no-repeat;
 	margin: 0 3px;
 }
 
@@ -120,7 +120,7 @@
 	width: 9px;
 	height: 11px;
 	outline: 0;
-	background: url(https://web.archive.org/web/20180703220924im_/https://www.koreanmall.com/images/cdn/skin/images/us/controls.png) -86px -44px no-repeat;
+	background: url('bxslider/controls.png') -86px -44px no-repeat;
 	margin: 0 3px;
 }
 
