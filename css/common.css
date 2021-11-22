@@ -563,6 +563,7 @@ footer .copyright_area .foot_address .cr {
   font-family: 'Dotum', sans-serif;
   font-size: 11px;
   color: #666;
+  margin-bottom: 5px;
 }
 footer .foot_cert {
   margin: 30px 0;
