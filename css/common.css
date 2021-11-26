@@ -212,13 +212,13 @@ header .km_logo a {
   margin: 0px auto;
 }
 .gnb_util ul li a i.login {
-  background-position: -2px -200px;
+  background-position: -83px -200px;
 }
 .gnb_util ul li a i.myshop {
-  background-position: -43px -200px;
+  background-position: -2px -200px;
 }
 .gnb_util ul li a i.cart {
-  background-position: -84px -200px;
+  background-position: -43px -200px;
 }
 .gnb_util ul li a span {
   display: block;
